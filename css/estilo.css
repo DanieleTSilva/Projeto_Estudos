@@ -1,0 +1,23 @@
+body{
+    background-color: lightgreen;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace; color: orange;
+    text-align: center;
+    margin: center;
+    font-style: italic;
+}
+
+div#dadospessoais{
+    display:inline-table; /* exibe uma div ao lado da outra, em linha */
+    width: 400px; /* largura do bloco */
+    height: 400px; /* altura do bloco */
+    background-color: lightgray;
+    border: 1px solid black; /* borda do bloco */ 
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

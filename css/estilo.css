@@ -1,5 +1,6 @@
 body{
     background-color: aliceblue;
+    line-height: 15px;
 }
 
 h1{
@@ -13,24 +14,25 @@ h1{
 }
 
 h2{
-    background-color: rgb(58, 56, 232);
+    background-color: rgb(37, 62, 245);
     color: aliceblue;
     padding: 10px 10px 10px 15px;
     margin: 15px 10px 10px 15px;
     text-align: center;
-    font-style: italic;
     box-sizing: border-box;
 
 }
 
 div{
-    display: inline-table;
+    display: inline-flexbox;
     background-color: rgb(221, 236, 199);
+    line-height: 5px;
     padding: 15px 10px 10px 15px;
+    border: 3px solid rgb(37, 62, 245);
     margin: 15px 10px 10px 15px;
     text-align: left;
-    font-style: italic;
     box-sizing: border-box; 
+
 }
 
 footer {

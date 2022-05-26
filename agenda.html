@@ -13,21 +13,19 @@
     <form>
         <div id="dadospessoais">
             <h2>Dados Pessoais</h2>
-            <label for="nome">Nome:</label>
-            <input type="text" id="fname" name="nome" placeholder ="José da Silva"><br>
-            <label for="niver">Aniversário:</label>
+            <label for="nome">Nome: </label>
+            <input type="text" id="fname" name="nome" placeholder ="José da Silva">
+            <label for="niver">Aniversário: </label>
             <input type="date" id="niver" name="niver"><br><br> 
+            <label for="phone">Entre com o celular: </label>
+            <input type="tel" id="phone" name="phone"placeholder="11-9999-0000" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}">
+            <label for="email">Entre com seu email: </label>
+            <input type="email" id="email" name="email"><br>
+            <p>Sexo: </p>
             <input type="radio" id="sexoMasc" name="sexoMasc" checked = on value="Masculino">
             <label for="sexoMasc">Masculino</label><br>
             <input type="radio" id="sexoFem" name="sexoFem" value="Feminino">
             <label for="sexoFem">Feminino</label><br><br>
-            <label for="phone">Entre com o celular:</label>
-            <input type="tel" id="phone" name="phone"placeholder="11-9999-0000" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}"><br><br>
-            <label for="email">Entre com seu email:</label>
-            <input type="email" id="email" name="email"><br><br>
-        </div>
-
-        <div>
             <h2>Dados Profissionais</h2>
             <label for="profissao">Escolha sua profissão:</label>
             <select name="profissao" id="profissao">
@@ -36,25 +34,17 @@
             <option value="2">Analista de testes de software</option>
             <option value="3">Coordenador de desenvolvimento</option>
             <option value="4">Gerente de desenvolvimento</option>
-          </select><br><br>
-        </div>
-
-        <div>
+            </select><br><br>
             <h2>Formação</h2>
             <input type="checkbox" id="estuda" name="estuda" value=""Estuda>
             <label for="estuda"> Estuda?</label><br>
             <input type="checkbox" id="trabalha" name="trabalha" value="Trabalha">
             <label for="trabalha"> Trabalha?</label><br><br>
             <label for="myfile">Selecione um arquivo:</label>
-            <input type="file" id="myfile" name="myfile"><br><br>
+            <input type="file" id="myfile" name="myfile"><br><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset"> 
         </div>       
-
-        <div>
-            <h2>Finalizar</h2>
-           <input type="submit" value="Submit">
-           <input type="reset"> 
-        </div>
-       
     </form>
     
 </body>

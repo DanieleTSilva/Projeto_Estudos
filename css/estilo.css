@@ -1,23 +1,42 @@
 body{
-    background-color: lightgreen;
-}
-h2 {
-    font-family: 'Courier New', Courier, monospace; color: orange;
-    text-align: center;
-    margin: center;
-    font-style: italic;
+    background-color: aliceblue;
 }
 
-div#dadospessoais{
-    display:inline-table; /* exibe uma div ao lado da outra, em linha */
-    width: 400px; /* largura do bloco */
-    height: 400px; /* altura do bloco */
-    background-color: lightgray;
-    border: 1px solid black; /* borda do bloco */ 
+h1{
+    background-color: rgb(37, 62, 245);
+    color: aliceblue;
+    padding: 10px 10px 10px 15px;
+    margin: 15px 10px 10px 15px;
+    text-align: center;
+    font-style: bold;
+    box-sizing: border-box;
+}
+
+h2{
+    background-color: rgb(58, 56, 232);
+    color: aliceblue;
+    padding: 10px 10px 10px 15px;
+    margin: 15px 10px 10px 15px;
+    text-align: center;
+    font-style: italic;
+    box-sizing: border-box;
+
+}
+
+div{
+    display: inline-table;
+    background-color: rgb(221, 236, 199);
+    padding: 15px 10px 10px 15px;
+    margin: 15px 10px 10px 15px;
+    text-align: left;
+    font-style: italic;
+    box-sizing: border-box; 
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 15px 10px 10px 15px;
+    margin: 15px 10px 10px 15px;
 }
